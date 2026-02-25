@@ -128,4 +128,5 @@ On target hardware with **Ryzen AI Software 1.7**:
 
 ---
 
-*Built for [Hackathon] — Team ControlCV*
+
+
