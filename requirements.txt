@@ -1,0 +1,19 @@
+# Sentinel-X – Python Dependencies
+# ══════════════════════════════════════════════════════════
+# Install with:  pip install -r requirements.txt
+
+# Core telemetry
+psutil>=5.9.0
+numpy>=1.24.0
+
+# AI Model (training + ONNX export)
+torch>=2.1.0
+onnx>=1.15.0
+
+# Inference engine
+# For AMD NPU:  pip install onnxruntime-vitisai  (requires Ryzen AI SW 1.7)
+# For CPU sim:  pip install onnxruntime
+onnxruntime>=1.17.0
+
+# Terminal colour support (Windows)
+colorama>=0.4.6; sys_platform == "win32"
